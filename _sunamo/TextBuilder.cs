@@ -1,6 +1,6 @@
 namespace SunamoTextBuilderShared._sunamo;
 
-internal class TextBuilder
+public class TextBuilder
 {
-    internal static Func<ITextBuilder> Create;
+    public static Func<ITextBuilder> Create;
 }
